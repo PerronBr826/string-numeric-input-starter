@@ -15,16 +15,16 @@ print(f'{name} attends {program} at Career Tech.')
 # Comment
 # Comment
 
-age = str(input('What is your age?\n'))
-print(f'In ten years {name} will be {age}')
+age = input('What is your age?\n')
+print(f'In ten years {name} will be {int(age) + 10}')
 
 
 # Task 3
 # Comment
 # Comment
 
-
-
+family_members = input('How many people are in your family?\n')
+print(family_members)
 
 # Task 4
 # Comment
